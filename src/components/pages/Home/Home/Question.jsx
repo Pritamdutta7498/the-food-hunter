@@ -21,13 +21,13 @@ const Question = () => {
           <div className='grid grid-cols-2 text-base mt-3'>
             <div className='flex flex-col'>
               <span>Sunday to Tuesday</span>
-              <span className='text-3xl text-red-800'>10:00</span>
-              <span className='text-3xl text-red-800'>22:00</span>
+              <span className='text-3xl text-red-800'>10:00 AM</span>
+              <span className='text-3xl text-red-800'>22:00 PM</span>
             </div>
             <div className='flex flex-col'>
               <span>Friday to Saturday</span>
-              <span className='text-3xl text-red-800'>12:00</span>
-              <span className='text-3xl text-red-800'>19:00</span>
+              <span className='text-3xl text-red-800'>12:00 AM</span>
+              <span className='text-3xl text-red-800'>19:00 PM</span>
             </div>
           </div>
             <p className='w-2/3 md:w-1/2 mx-auto border border-red-900 p-2 my-2 rounded-lg'>We serve to our best food to you</p>

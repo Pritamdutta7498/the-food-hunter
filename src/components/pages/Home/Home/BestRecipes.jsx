@@ -32,10 +32,10 @@ const BestRecipes = () => {
   return (
     <div className='px-8 md:px-36 my-5'>
       <div className='p-5 md:p-10'>
-        <div className='text-start mb-5'>
-          <p className=''>---- <span className='text-black tracking-widest'>Top Viewed Recipes</span></p>
+        <div className=' mb-5 text-center'>
+          <p className=''> <span className='text-black tracking-widest'>Top Viewed Recipes</span></p>
           <h2 className='text-1xl md:text-3xl'>
-            <span className='underline decoration-slate-400 text-4xl md:text-5xl pl-1 md:pl-2 font-bold'>Most</span>
+            <span className=' decoration-slate-400 text-4xl md:text-5xl pl-1 md:pl-2 font-bold'>Most</span>
             <span className='text-4xl md:text-5xl text-red-800'> popular</span>
           </h2>
         </div>
