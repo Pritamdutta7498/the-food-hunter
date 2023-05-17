@@ -9,8 +9,8 @@ import wine from '../../../../assets/icon/wine.png';
 const Menu = () => {
   return (
     <div className='px-5 md:px-36 my-10 '>
-      <div className='bg-slate-100 rounded-lg p-5 md:p-10 py-10 md:py-16'>
-        <div className='text-center mb-5'>
+      <div className=' rounded-lg p-5 md:p-10 py-10 md:py-16'>
+        <div className='text-center mb-10'>
           <h2 className='text-1xl md:text-3xl'>
             <span className='mx-auto decoration-slate-400 text-4xl md:text-5xl pl-1 md:pl-2 font-bold'>Main</span>
             <span className='text-4xl md:text-5xl text-orange-500'> Menu</span>

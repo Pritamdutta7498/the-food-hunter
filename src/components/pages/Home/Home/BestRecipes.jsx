@@ -36,7 +36,7 @@ const BestRecipes = () => {
           <p className=''> <span className='text-black tracking-widest'>Top Viewed Recipes</span></p>
           <h2 className='text-1xl md:text-3xl'>
             <span className=' decoration-slate-400 text-4xl md:text-5xl pl-1 md:pl-2 font-bold'>Most</span>
-            <span className='text-4xl md:text-5xl text-red-800'> popular</span>
+            <span className='text-4xl font-bold md:text-5xl text-orange-500'> Popular</span>
           </h2>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-3'>
