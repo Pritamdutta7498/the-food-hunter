@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import Lottie from "lottie-react";
-import cooking from '../../../assets/animation/cooking.json'
+import cooking from '../../../../assets/animation/cooking.json'
 import ChefRecipes from './ChefRecipes';
 import { FaBriefcase } from "react-icons/fa";
 

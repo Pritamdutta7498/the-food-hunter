@@ -1,10 +1,10 @@
 import React from 'react';
-import meat from './../../../assets/icon/meat.png';
-import breakfast from './../../../assets/icon/breakfast.png';
-import dessert from './../../../assets/icon/cupcake.png';
-import salad from './../../../assets/icon/salad.png';
-import starter from './../../../assets/icon/snacks.png';
-import wine from './../../../assets/icon/wine.png';
+import meat from '../../../../assets/icon/meat.png';
+import breakfast from '../../../../assets/icon/breakfast.png';
+import dessert from '../../../../assets/icon/cupcake.png';
+import salad from '../../../../assets/icon/salad.png';
+import starter from '../../../../assets/icon/snacks.png';
+import wine from '../../../../assets/icon/wine.png';
 
 const Menu = () => {
   return (
