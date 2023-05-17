@@ -30,7 +30,8 @@ const Chefs = () => {
         <div className='text-center mb-5'>
        
           <h2 className='text-1xl md:text-3xl'>
-            <span className=' decoration-base-200 text-4xl md:text-5xl pl-1 md:pl-2 font-bold text-orange-500'>Chefs</span>
+          <span className='text-4xl font-bold md:text-5xl'> Our Best</span>
+            <span className=' decoration-base-200 text-4xl md:text-5xl pl-1 md:pl-2 font-bold text-orange-500'> Chefs</span>
             <span className='text-4xl font-bold md:text-5xl'> list</span>
           </h2>
         </div>

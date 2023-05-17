@@ -8,7 +8,7 @@ const Chef = ({ chef }) => {
   const { chef_id, chef_name, years_of_experience, num_of_recipes, likes, chef_picture } = chef;
   return (
     <div>
-      <div className="card lg:card-side bg-base-100 shadow-xl mb-5">
+      <div className="card lg:card-side bg-cyan-200 shadow-xl mb-5">
         <figure className='md:h-64 md:w-80'>
           <LazyLoadImage
             className='h-full w-full object-cover'
@@ -33,7 +33,7 @@ const Chef = ({ chef }) => {
           </div>
           <div className="card-actions justify-end">
             <Link to={`/chef/${chef_id}`}>
-              <button className="btn btn-secondary">View Details</button>
+              <button className="btn btn-secondary bg-slate-100 border-0">View Details</button>
             </Link>
           </div>
         </div>
