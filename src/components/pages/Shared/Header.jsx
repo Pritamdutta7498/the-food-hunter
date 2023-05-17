@@ -16,8 +16,7 @@ const Header = () => {
   }
   return (
     <>
-      {/* add new one */}
-      <div className='md:px-32'>
+      <div className='md:px-32 mt-4'>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
@@ -48,13 +47,13 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <Link to='/' className="btn btn-ghost normal-case text-xl  md:text-4xl text-amber-700">
+            <Link to='/' className="btn btn-ghost normal-case text-xl  md:text-4xl text-amber-600">
               The Food Hunter
             </Link>
           </div>
           {/* center buttons in large screen */}
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+            <ul className="menu menu-horizontal px-3">
               <li>
                 <NavLink
                   to="/"
