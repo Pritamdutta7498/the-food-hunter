@@ -29,9 +29,9 @@ const PdfFile = () => {
       <Page style={styles.body}>
         <Text style={styles.title}>In blog page you will find 4 questions and their answers!</Text>
         <br />
-        <Text style={styles.question}>1. Differences between uncontrolled and controlled components?</Text>
+        <Text style={styles.question}>1.Tell us the differences between uncontrolled and controlled components?</Text>
         <br />
-        <Text style={styles.answer}>Answer: Which component manages its own state internally that is known as uncontrolled component. On the other hand, controlled component is controlled by the parent component. In uncontrolled component while user interacts then its internal state updated directly. But controlled component controlled by calling function and using props.</Text>
+        <Text style={styles.answer}> <span className='text-orange-500'>Answer:</span>  Which component manages its own state internally that is known as uncontrolled component. On the other hand, controlled component is controlled by the parent component. In uncontrolled component while user interacts then its internal state updated directly. But controlled component controlled by calling function and using props.</Text>
         <br />
         <Text style={styles.question}>2. How to validate React props using PropTypes?</Text>
         <br />
