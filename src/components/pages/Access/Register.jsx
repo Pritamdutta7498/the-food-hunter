@@ -67,24 +67,24 @@ const Register = () => {
   }
   return (
     <div>
-      <div className="text-center mx-auto p-5 md:p-10 form-control w-full max-w-md">
+      <div className="border-3 mb-5 rounded-lg shadow-lg bg-white text-center text-center mx-auto p-5 md:p-10 form-control w-full max-w-md">
         <form onSubmit={handleRegister} className='mb-3'>
-          <h3 className='text-3xl mb-5'>Registration!</h3>
+          <h3 className='text-3xl mb-5'>Please Register</h3>
           <div className='grid grid-cols-2 gap-1 justify-items-center items-center'>
             <div>
               <span className="label-text">What is your Name?</span>
-              <input type="text" placeholder="Enter Your name" name='name' className="input input-bordered w-full max-w-xs text-center mb-3" required />
+              <input type="text" placeholder="Enter your name" name='name' className="input input-bordered w-full max-w-xs text-center mb-3" required />
             </div>
             <div>
-              <span className="label-text">Share your photo</span>
+              <span className="label-text">Enter photo url</span>
               <input type="text" placeholder="Photo URL" name='photoURL' className="input input-bordered w-full max-w-xs text-center mb-3" required />
             </div>
             <div>
-              <span className="label-text">E-mail ?</span>
-              <input type="email" placeholder="Enter Your E-mail" name='email' className="input input-bordered w-full max-w-xs text-center mb-3" required />
+              <span className="label-text">Enter your email</span>
+              <input type="email" placeholder="Enter your email" name='email' className="input input-bordered w-full max-w-xs text-center mb-3" required />
             </div>
             <div>
-              <span className="label-text">Create a password (at least 6 characters) </span>
+              <span className="label-text">Enter your password </span>
               <input type="Password" placeholder="Enter Your Password" name='password' className="input input-bordered w-full max-w-xs text-center mb-3" required />
             </div>
           </div>
@@ -94,11 +94,11 @@ const Register = () => {
                 {
                   errorMessage.slice(0, 9) === 'Firebase:' ? (
                     errorMessage === 'Firebase: Error (auth/email-already-in-use).' ?
-                      <p>Email already used</p> :
+                      <p>Email already in used!</p> :
                       errorMessage === 'Firebase: Error (auth/invalid-email).' ?
-                        <p>Email is not formatted correctly</p> :
+                        <p>Email is not formatted correctly!</p> :
                         errorMessage === 'Firebase: Error (auth/too-many-requests).' ?
-                          <p>Too many attempts, try again later</p> :
+                          <p>Too many attempts, try again later...</p> :
                           <p>'There was an error while trying to create your account. Please try again later.'</p>
                   ) :
                     <p>{errorMessage}</p>
@@ -114,10 +114,10 @@ const Register = () => {
           <button onClick={handleGitHubSignIn}><FaGithub className='text-4xl' /></button>
         </div>
         <div>
-          <p>Do you already have an account?
+          <p>Do you already have an account? Please
             <br />
             <Link to='/access/login'>
-              <span className='underline decoration-1'>Login</span>
+              <span className='hover:underline decoration-1'>Login</span>
             </Link>
           </p>
         </div>
