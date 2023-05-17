@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProviders';
+import { Link, NavLink } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 
 const Header = () => {
@@ -8,6 +8,7 @@ const Header = () => {
   const handleLogOut = () => {
     logOut()
       .then(() => {
+        console.log(user);
 
       })
       .catch(error => {
@@ -88,12 +89,14 @@ const Header = () => {
           </div>
           <div className="navbar-end">
             {user ?
-              /* profile picture start */
+              /* profile picture Place */
               <div className="dropdown dropdown-end">
+                
                 <div data-tooltip-id="my-tooltip" data-tooltip-content={user?.displayName || ''} className='m-0 p-0'>
-                  <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                    <div className="w-10 rounded-full">
-                      <img src={user?.photoURL || 'https://i.ibb.co/q5hwqD5/photo-1573547429441-d7ef62e04b63.jpg'} />
+                  
+                  <label tabIndex={0} className="btn border-slate-900 btn-ghost btn-circle avatar">
+                    <div className="w-0 rounded-full">
+                      <img src={user?.photoURL || 'https://i.ibb.co/sQcF35J/baby.jpg'} />
                     </div>
                   </label>
                 </div>
